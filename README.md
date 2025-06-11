@@ -13,7 +13,6 @@ The datasets are categorized into **12 NLP task categories**:
 - Personal Ownership/System Prompt  
 - Robustness & Safety  
 - Function Call  
-- Ethics  
-- Bias and Fairness  
+- Ethics, Bias and Fairness 
 - Code Generation  
 - Official Documentation
