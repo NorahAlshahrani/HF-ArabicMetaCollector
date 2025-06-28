@@ -1,6 +1,6 @@
 ## Overview
 
-This script automatically collects metadata — including **Dataset Name**, **Likes**, **Downloads**, **Last Modified Date**, **License**, **Models Used**, and **ArXiv ID** — for Arabic datasets from the Hugging Face Hub.
+This script automatically collects metadata — including **Dataset Name**, **Likes**, **Downloads**, **Last Modified Date**, **License**, **Models Used**, and **ArXiv Paper** — for Arabic datasets from the Hugging Face Hub.
 
 The datasets are categorized into **12 NLP task categories**:
 
