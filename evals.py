@@ -204,9 +204,9 @@ def get_scientific_contribution_scores(df):
 
 
 def classify_scientific_contribution_level(scientific_contribution_score):
-    if scientific_contribution_score >= 2:
+    if scientific_contribution_score >= 3:
         return "High"
-    elif scientific_contribution_score >= 1:
+    elif scientific_contribution_score >= 2:
         return "Medium"
     else:
         return "Low"
