@@ -1,6 +1,6 @@
 ## 📄 Overview
 
-This repository contains a Python script that automatically collects and evaluates metadata for Arabic post-training datasets on Hugging Face. The datasets are organized into four dimensions: **LLM Capabilities, Steerability, Alignment,and Robustness ** and assessed based on popularity, adoption, recency, documentation quality, licensing, and scientific contribution.
+This repository contains a Python script that automatically collects and evaluates metadata for Arabic post-training datasets on Hugging Face. The datasets are organized into four dimensions: **LLM Capabilities**, **Steerability**, **Alignment**,and **Robustness** and assessed based on **popularity**, **adoption**, **recency**, **documentation quality**, **licensing**, and **scientific contribution**.
 
 
 ## BibTeX Citation:
