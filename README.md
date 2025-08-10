@@ -4,7 +4,7 @@ This repository contains a Python script that automatically collects and evaluat
 
 
 ## BibTeX Citation:
-
+```bash
 @misc{alkhowaiter2025mindgapreviewarabic,
       title={Mind the Gap: A Review of Arabic Post-Training Datasets and Their Limitations}, 
       author={Mohammed Alkhowaiter and Norah Alshahrani and Saied Alshahrani and Reem I. Masoud and Alaa Alzahrani and Deema Alnuhait and Emad A. Alghamdi and Khalid Almubarak},
@@ -14,3 +14,4 @@ This repository contains a Python script that automatically collects and evaluat
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2507.14688}, 
 }
+```
