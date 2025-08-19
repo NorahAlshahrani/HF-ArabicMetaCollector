@@ -2,6 +2,19 @@
 
 This repository contains Python tools that automatically extract and evaluate metadata for Arabic post-training datasets on Hugging Face. The datasets are organized into four key dimensions:  **LLM Capabilities**, **Steerability**, **Alignment**,and **Robustness** —and are evaluated across six metrics: **popularity**, **adoption**, **recency**, **documentation quality**, **licensing**, and **scientific contribution**.
 
+## 📖 Documentation
+
+### Metadata Extraction Tool  
+**Example:**  
+```bash
+python script.py -f datasets.csv -e popularity,recency -s
+
+### Evaluation Tool  
+**Example:**  
+```bash
+python script.py -f datasets.csv -e popularity,recency -s
+
+
 ## BibTeX Citation:
 ```bash
 @misc{alkhowaiter2025mindgapreviewarabic,
