@@ -7,12 +7,14 @@ This repository contains Python tools that automatically extract and evaluate me
 ### Metadata Extraction Tool  
 **Example:**  
 ```bash
-python script.py -f datasets.csv -e popularity,recency -s
+python script.py --list
+python script.py --category "Summarization" --save
 ```
 ### Evaluation Tool  
 **Example:**  
 ```bash
-python eval.py -f datasets.csv -e popularity,recency -s
+python evals.py --file Summarization.csv --eval all --save
+python evals.py --file Summarization.csv --eval popularity_level --save
 ```
 
 ## BibTeX Citation:
