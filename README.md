@@ -8,12 +8,12 @@ This repository contains Python tools that automatically extract and evaluate me
 **Example:**  
 ```bash
 python script.py -f datasets.csv -e popularity,recency -s
-
+```
 ### Evaluation Tool  
 **Example:**  
 ```bash
-python script.py -f datasets.csv -e popularity,recency -s
-
+python eval.py -f datasets.csv -e popularity,recency -s
+```
 
 ## BibTeX Citation:
 ```bash
