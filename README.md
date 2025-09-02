@@ -17,10 +17,10 @@ Run the script from the command line:
 ```bash
 python script.py -c <category> [-s] | -l
 ```
-Options
-•	-c or --category → Specify the task category (e.g., "Summarization")
-•	-s or --save → Save the results to a CSV file
-•	-l or --list → List all available categories
+Options:
+•	-c or --category → Specify the task category (e.g., "Summarization"),
+•	-s or --save → Save the results to a CSV file,
+•	-l or --list → List all available categories.
 
 **Example:**  
 List available categories:
