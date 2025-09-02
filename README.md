@@ -23,12 +23,8 @@ python script.py -c <category> [-s] | -l
 	-l or --list → List all available categories.
 
 **Example:**  
-List available categories:
 ```bash
 python script.py --list
-```
-Fetch datasets in a category and save results:
-```bash
 python script.py --category "Summarization" --save
 ```
 
