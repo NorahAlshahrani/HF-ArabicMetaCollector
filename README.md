@@ -13,11 +13,25 @@ pip install pandas selenium beautifulsoup4 huggingface_hub pyyaml
 ```
 •	ChromeDriver: Ensure ChromeDriver is installed and the path is correctly set in the CHROMEDRIVER_PATH variable in the script.
 #### Metadata Extraction Tool  
+Run the script from the command line:
+```bash
+python script.py -c <category> [-s] | -l
+```
+**Options**
+•	-c or --category → Specify the task category (e.g., "Summarization")
+•	-s or --save → Save the results to a CSV file
+•	-l or --list → List all available categories
+
 **Example:**  
+List available categories:
 ```bash
 python script.py --list
+```
+Fetch datasets in a category and save results:
+```bash
 python script.py --category "Summarization" --save
 ```
+
 #### Evaluation Tool  
 **Example:**  
 ```bash
