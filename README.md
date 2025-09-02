@@ -27,8 +27,17 @@ python script.py -c <category> [-s] | -l
 python script.py --list
 python script.py --category "Summarization" --save
 ```
-
 #### Evaluation Tool  
+Run the script from the command line:
+```bash
+python evals.py --file <CSV file> [--eval <metric>] [--save]
+```
+**Options:**
+	-f or --file → Specify the CSV file to evaluate,
+	-e or --eval → Specify one evaluation metrics,
+	-e all or --eval all → Evaluate all available metrics,
+    -s or --save  → Save the results to a CSV file.
+    
 **Example:**  
 ```bash
 python evals.py --file Summarization.csv --eval all --save
