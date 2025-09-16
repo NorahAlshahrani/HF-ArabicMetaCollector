@@ -12,7 +12,7 @@ This repository contains Python tools that automatically extract and evaluate me
 pip install -r requirements.txt
 ```
 •	ChromeDriver: Ensure ChromeDriver is installed and the path is correctly set in the CHROMEDRIVER_PATH variable in the script.
-#### Metadata Extraction Tool  
+#### 🛠️ Metadata Extraction Tool  
 Run the script from the command line:
 ```bash
 python script.py -c <category> [-s] | -l
@@ -27,7 +27,7 @@ python script.py -c <category> [-s] | -l
 python script.py --list
 python script.py --category "Summarization" --save
 ```
-#### Evaluation Tool  
+#### 🛠️ Evaluation Tool  
 Run the script from the command line:
 ```bash
 python evals.py --file <CSV file> [--eval <metric>] [--save]
