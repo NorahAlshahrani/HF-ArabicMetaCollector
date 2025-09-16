@@ -4,12 +4,12 @@ This repository contains Python tools that automatically extract and evaluate me
 
 ## 📖 Documentation
 
-### Requirements
+### 📦 Requirements
 
 •	Python: 3.9 or higher
 •	Python packages: Install the required libraries using pip:
 ```bash
-pip install pandas selenium beautifulsoup4 huggingface_hub pyyaml
+pip install -r requirements.txt
 ```
 •	ChromeDriver: Ensure ChromeDriver is installed and the path is correctly set in the CHROMEDRIVER_PATH variable in the script.
 #### Metadata Extraction Tool  
